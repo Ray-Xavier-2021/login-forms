@@ -1,0 +1,34 @@
+/* Universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+    h2, h6{
+        padding: 10px 5px;
+    }
+   
+
+    .info {
+        padding: 5px 10px;
+    }
+    
+    .box {
+        border: 2px dashed #f00;
+        width: auto;
+        margin: 20px;
+    }
+    
+    /* Forms Container */
+    
+    #forms {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form-1, .form-2, .form-3, .form-4, .form-5{
+        text-align: center;
+    }

@@ -1,0 +1,51 @@
+/* Universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+   
+    h2, h6{
+        padding: 10px 5px;
+    }
+   
+    .box {
+       border: 2px dashed gray;
+       margin: 10px;
+    }
+   
+    .info {
+       padding: 5px 10px;
+    }
+   
+   
+    /* Forms Container */
+   
+    #forms {
+       display: flex;
+       height: auto;
+       flex-wrap: wrap;
+       justify-content: center;
+       margin: 100px;
+    }
+   
+    .title {
+       text-align: center;
+    }
+    
+    /*Terms & Policy*/
+    /* .form-1 {
+        
+    } */
+   
+    /*#service {
+        position: absolute;
+        background-color: darkgrey;
+        bottom: 200;
+        right: 20;
+        width: 200px;
+        height: 150px;
+        overflow-x: hidden;
+        transition: 2s ease-in 0.75ms;
+    }
+       

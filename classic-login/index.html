@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Classic Forms</title>
+</head>
+<body>
+
+    <div id="forms">
+        <form class="form-1 box" action="" method="post">
+            <div class="title">
+                <h3>Create Account</h3>
+                <p>Enter details below to create your account.</p>
+            </div>
+            <div class="info">
+                <form action="post">
+                    <div class="textbox">
+                        <label for="first-name">First Name:</label>
+                        <input type="text">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="last-name">Last Name:</label>
+                    <input type="text">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="birthdate">D.O.B.:</label>
+                        <input type="date" name="birthdate" id="birthdate">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <input type="radio" name="male" id="male">
+                        <label for="gender">Male</label>
+                        <input type="radio" name="female" id="female">
+                        <label for="gender">Female</label>
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="password">Confirm Password:</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <input type="checkbox" name="terms" id="terms">
+                        <label for="checkbox">I accept <a href="#terms">Terms of Use</a> & <a href="#privacy">Privacy Policy</a></label>
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <button class="btn" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </form>
+
+        <form class="form-2 box" action="" method="post">
+            <div class="title">
+                <h3>Register</h3>
+                <p>Register to create your account.</p>
+                <p>Its free and only takes a minute.</p>
+            </div>
+            <div class="info">
+                <form action="post">
+                    <div class="textbox">
+                        <label for="first-name">First Name:</label>
+                        <input type="text">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="password">Verify Password:</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <input type="checkbox" name="terms" id="terms">
+                        <label for="checkbox">I accept <a href="#service">Terms of Use</a> & <a href="#privacy">Privacy Policy</a></label>
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <button class="btn" type="submit">Register</button>
+                    </div>
+                </form>
+            </div>
+        </form>
+
+        <form class="form-3 box" action="" method="post">
+            <div class="title">
+                <h3>Sign Up</h3>
+                <p>Enter information below.</p>
+            </div>
+            <div class="info">
+                <form action="post">
+                    <div class="textbox">
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="password">Re-type Password:</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <br>   
+                    <div class="textbox">
+                        <input type="checkbox" name="terms" id="terms">
+                        <label for="checkbox">I accept <a href="#service">Terms of Use</a> & <a href="#privacy">Privacy Policy</a></label>
+                    </div>
+                    <br>
+                    <div>
+                        <button class="btn" type="submit">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+        </form>
+
+        <form class="form-4 box" action="" method="post">
+            <div class="title">
+                <h3>Sign In</h3>
+                <p>Enter information below to sign in.</p>
+            </div>
+            <div class="info">
+                <form action="post">
+                    <div class="textbox">
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username" required>
+                    </div>
+                    <br>
+                    <div class="textbox">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" required>
+                    </div>
+                    <br>  
+                    <div>
+                        <button class="btn" type="submit">Sign In</button>
+                    </div>
+                </form>
+            </div>
+        </form>
+
+        <form class="form-5 box" action="" method="post">
+            <div class=" title">
+                <h3>Log In</h3>
+                <p>Enter information below to log in.</p>
+            </div>
+            <div class=" info">
+                <form class="" action="post">
+                    <div class="textbox">
+                        <label for="username">E-mail:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <br>
+                    <div class="textbox">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <br>  
+                    <div>
+                        <button class="btn" type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </form>
+
+        <div id="service" class="agreement" class="box">
+            <h2>Terms of Use</h2>
+            <h6>March 19, 2021</h6>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae eaque debitis natus nostrum quis perspiciatis architecto culpa beatae pariatur veritatis hic expedita iusto minima necessitatibus, exercitationem non placeat. Eos, aliquam.</p>
+        </div>
+
+        <div id="privacy" class="agreement"  class="box">
+            <h2 class="title">Privacy Policy</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem repudiandae dignissimos aut repellendus, nesciunt ratione veritatis nostrum quasi culpa tempore odio. Eos, iste ducimus minus quo in tenetur optio.</p>
+        </div>
+
+    </div>
+          
+    
+</body>
+</html>
